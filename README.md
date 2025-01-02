@@ -33,3 +33,11 @@ Lession-5  Events
 Lession-6 Use state hook
 #1 import from react
 #2 not used inside the condition
+
+Lession-7 List and Key
+#1 use map with return
+#2 npm install react-icons
+#3 pass key attr for hook handle for all list
+#4 Icons import
+#5 use state and condition check html tag display
+#6 Simply write html code in javascript file.
