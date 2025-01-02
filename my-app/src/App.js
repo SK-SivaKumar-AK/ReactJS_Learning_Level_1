@@ -6,6 +6,7 @@ import Header from "./Header";
 // import Events from "./Events";
 // import UseState from "./UseState";
 //import ListKey from "./ListKey";
+//import PropsParent from "./PropsParent";
 
 import Footer from "./Footer";
 
@@ -16,7 +17,7 @@ function App() {
   return (
     <div className="App">
         {/* Applying style */}
-        <Header/>
+        <Header headingName = 'To Do Lists'/>
         <main>
           {/* values display */}
           {/* <ValDisplay/> */}
@@ -40,6 +41,10 @@ function App() {
 
           {/* List and Key */}
           {/* <ListKey/> */}
+
+
+          {/* Props drilling */}
+          {/* <PropsParent/> */}
         </main>
         <Footer/>
     </div>

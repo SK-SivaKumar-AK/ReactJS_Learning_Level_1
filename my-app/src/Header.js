@@ -1,15 +1,16 @@
 import React from 'react'
 
-const Header = () => {
+const Header = ( {headingName = 'To Do List'} ) => {
 
   /* Applying style */
   const headerStyle = {backgroundColor : "mediumblue" , color : "white"};
 
   return (
     <header >
-        <h1 style={headerStyle}>To do List</h1>
+        <h1 style={headerStyle}>{headingName}</h1>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+
+export default Header;

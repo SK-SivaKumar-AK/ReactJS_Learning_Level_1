@@ -41,3 +41,7 @@ Lession-7 List and Key
 #4 Icons import
 #5 use state and condition check html tag display
 #6 Simply write html code in javascript file.
+
+Lession-8 Props
+#1 Props passing
+#2 Props drilling 
