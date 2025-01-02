@@ -16,7 +16,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-        {/* Applying style */}
+        {/* Applying style and props*/}
         <Header headingName = 'To Do Lists'/>
         <main>
           {/* values display */}
