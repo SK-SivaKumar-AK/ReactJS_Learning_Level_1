@@ -2,6 +2,7 @@ import React from 'react'
 
 const Header = () => {
 
+  /* Applying style */
   const headerStyle = {backgroundColor : "mediumblue" , color : "white"};
 
   return (
