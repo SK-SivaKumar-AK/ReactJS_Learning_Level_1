@@ -5,10 +5,11 @@ import Header from "./Header";
 // import FunComponent from "./FunComponent";
 // import Events from "./Events";
 // import UseState from "./UseState";
-//import ListKey from "./ListKey";
-//import PropsParent from "./PropsParent";
-//import AddItemList from "./AddItemList";
-//import CodeChallenge from "./CodeChallenge";
+// import ListKey from "./ListKey";
+// import PropsParent from "./PropsParent";
+// import AddItemList from "./AddItemList";
+// import CodeChallenge from "./CodeChallenge";
+// import HooksConcept from "./HooksConcept";
 
 import Footer from "./Footer";
 
@@ -55,6 +56,10 @@ function App() {
 
           {/* Code Challenge */}
           {/* <CodeChallenge/> */}
+
+
+          {/* Hooks */}
+          {/* <HooksConcept/> */}
         </main>
         <Footer/>
     </div>
