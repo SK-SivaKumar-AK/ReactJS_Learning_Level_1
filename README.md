@@ -88,3 +88,7 @@ Lession-16 Custom Hooks
 
 Lession-17 Context Hook
 #1 create seperate file named as context and pass one variable to all child component.
+
+
+Lession-18 Deploy
+#1 npm run build and moved the created file
