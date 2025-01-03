@@ -31,6 +31,9 @@
 
 
 // import CustomeHook from "./CustomeHook";
+// import { DataProvider } from "./ContextHookConcept";
+// import DataTransfer from "./DataTransfer";
+// import DataTransfer2 from "./DataTransfer2";
 
 /* Applying style */
 //import './App.css';
@@ -109,6 +112,13 @@ function App() {
 
           {/* Custome Hook */}
           {/* <CustomeHook/> */}
+
+
+          {/* Context Hook */}
+          {/* <DataProvider>
+            <DataTransfer/>
+            <DataTransfer2/>
+          </DataProvider> */}
 
         </main>
         {/* <Footer/> */}{/* <NewFooter /> */}
