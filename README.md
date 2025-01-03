@@ -82,3 +82,6 @@ Lession-15 Router
 #3 Import Routes , route in appjs file.
 #4 npm i date-fns 
 #5 const navigate = useNavigate()   === > navigate('')  -   for redirect
+
+Lession-16 Custom Hooks
+#1 create function and write fetch function and return the value.

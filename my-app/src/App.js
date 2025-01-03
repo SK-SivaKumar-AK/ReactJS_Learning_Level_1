@@ -28,12 +28,16 @@
 // import PostPageLayout from "./App/PostPageLayout";
 // import NewFooter from "./App/NewFooter";
 
+
+
+// import CustomeHook from "./CustomeHook";
+
 /* Applying style */
 //import './App.css';
 
 function App() {
   return (
-    <div>
+    <div className="App">
         {/* Applying style and props*/}
         {/* <Header headingName = 'To Do Lists'/> */}{/* <NewHeader title='Social Media'/> */}
         <main>
@@ -101,6 +105,10 @@ function App() {
             <Route path="*" element={<Missing/>} />
 
           </Routes> */}
+
+
+          {/* Custome Hook */}
+          {/* <CustomeHook/> */}
 
         </main>
         {/* <Footer/> */}{/* <NewFooter /> */}
