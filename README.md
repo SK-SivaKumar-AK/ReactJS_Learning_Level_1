@@ -66,3 +66,11 @@ Lession-11 Hooks
 Lession-12 JSON API
 #1 npx json-server -p 3500 -w data/db.json   //fake server data
 #2 How to use crud with inner server like fake.
+
+
+Lession-13 JSON API
+#1 CURD Operations using fakeApi
+
+
+Lession-14 Code challenge
+#1 normal fetch api using hook and display
