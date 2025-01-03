@@ -11,6 +11,7 @@ import Header from "./Header";
 // import CodeChallenge from "./CodeChallenge";
 // import HooksConcept from "./HooksConcept";
 // import ApiFetch from "./ApiFetch";
+// import ApiCrud from "./ApiCrud";
 
 import Footer from "./Footer";
 
@@ -64,6 +65,9 @@ function App() {
 
           {/* Api fetch */}
           {/* <ApiFetch/> */}
+
+          {/* Api Crud */}
+          {/* <ApiCrud/> */}
         </main>
         <Footer/>
     </div>

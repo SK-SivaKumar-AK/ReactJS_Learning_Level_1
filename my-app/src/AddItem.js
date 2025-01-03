@@ -12,7 +12,7 @@ const AddItem = ( {handleSubmit , newItems , setNewItems} ) => {
     <div>
         <form className='addForm' onSubmit={handleSubmit}>
             <label htmlFor="addItem">Add Item</label>
-            <input type="text" autoFocus id='addItem' value={newItems} placeholder='Add Item' required onChange={ (e) => setNewItems(e.target.value) } ref={reference}/>
+            <input type="text" name='addItem' autoFocus id='addItem' value={newItems} placeholder='Add Item' required onChange={ (e) => setNewItems(e.target.value) } ref={reference}/>
             <button type='submit' aria-label='Add Item' onClick={ () => {reference.current.focus()} }><FaPlus/></button>
         </form>
     </div>
