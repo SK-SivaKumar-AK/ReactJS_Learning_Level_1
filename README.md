@@ -51,3 +51,8 @@ Lession-9 Search and insert
 #2 Onchange set the new value it go to the default value using usestate.
 #3 default value is passed to other usestate set value 
 #4 that set value go to the list value.
+
+
+Lession-10 Code challenge
+#1 npm i colorname
+#2 default value => onchange detvalue => setvalue to defaultvlue

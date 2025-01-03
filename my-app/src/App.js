@@ -8,6 +8,7 @@ import Header from "./Header";
 //import ListKey from "./ListKey";
 //import PropsParent from "./PropsParent";
 //import AddItemList from "./AddItemList";
+//import CodeChallenge from "./CodeChallenge";
 
 import Footer from "./Footer";
 
@@ -50,6 +51,10 @@ function App() {
 
           {/* Add Item section */}
           {/* <AddItemList/> */}
+
+
+          {/* Code Challenge */}
+          {/* <CodeChallenge/> */}
         </main>
         <Footer/>
     </div>
