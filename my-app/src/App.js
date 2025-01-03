@@ -10,6 +10,7 @@ import Header from "./Header";
 // import AddItemList from "./AddItemList";
 // import CodeChallenge from "./CodeChallenge";
 // import HooksConcept from "./HooksConcept";
+// import ApiFetch from "./ApiFetch";
 
 import Footer from "./Footer";
 
@@ -60,6 +61,9 @@ function App() {
 
           {/* Hooks */}
           {/* <HooksConcept/> */}
+
+          {/* Api fetch */}
+          {/* <ApiFetch/> */}
         </main>
         <Footer/>
     </div>

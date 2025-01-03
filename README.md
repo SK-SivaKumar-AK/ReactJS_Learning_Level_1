@@ -61,3 +61,7 @@ Lession-10 Code challenge
 Lession-11 Hooks
 #1 useEffect only varibale change then this hook is run.
 #2 useref 
+
+
+Lession-12 JSON API
+#1 npx json-server -p 3500 -w data/db.json   //fake server data
