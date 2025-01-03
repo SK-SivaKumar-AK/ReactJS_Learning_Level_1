@@ -45,3 +45,9 @@ Lession-7 List and Key
 Lession-8 Props
 #1 Props passing
 #2 Props drilling 
+
+Lession-9 Search and insert
+#1 Default set the value
+#2 Onchange set the new value it go to the default value using usestate.
+#3 default value is passed to other usestate set value 
+#4 that set value go to the list value.
