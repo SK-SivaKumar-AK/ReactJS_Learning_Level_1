@@ -12,6 +12,7 @@ import Header from "./Header";
 // import HooksConcept from "./HooksConcept";
 // import ApiFetch from "./ApiFetch";
 // import ApiCrud from "./ApiCrud";
+// import CodeChallengeII from "./CodeChallengeII";
 
 import Footer from "./Footer";
 
@@ -20,7 +21,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div>
         {/* Applying style and props*/}
         <Header headingName = 'To Do Lists'/>
         <main>
@@ -68,6 +69,9 @@ function App() {
 
           {/* Api Crud */}
           {/* <ApiCrud/> */}
+
+          {/* Code Challenge II */}
+          {/* <CodeChallengeII/> */}
         </main>
         <Footer/>
     </div>
