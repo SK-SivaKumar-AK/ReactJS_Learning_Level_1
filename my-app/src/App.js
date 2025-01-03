@@ -7,6 +7,7 @@ import Header from "./Header";
 // import UseState from "./UseState";
 //import ListKey from "./ListKey";
 //import PropsParent from "./PropsParent";
+import AddItemList from "./AddItemList";
 
 import Footer from "./Footer";
 
@@ -45,6 +46,10 @@ function App() {
 
           {/* Props drilling */}
           {/* <PropsParent/> */}
+
+
+          {/* Add Item section */}
+          <AddItemList/>
         </main>
         <Footer/>
     </div>
