@@ -12,21 +12,21 @@
 // import ApiFetch from "./ApiFetch";
 // import ApiCrud from "./ApiCrud";
 // import CodeChallengeII from "./CodeChallengeII";
-//import Footer from "./Footer";
+// import Footer from "./Footer";
 
 
 /* From Router Section */
-import { Routes , Route } from "react-router-dom";
-import NewHeader from "./App/NewHeader";
-import Nav from "./App/Nav";
-import Home from "./App/Home";
-import NewPost from "./App/NewPost";
-import PostPage from "./App/PostPage";
-import About from "./App/About";
-import Missing from "./App/Missing";
-import Posts from "./App/Posts";
-import PostPageLayout from "./App/PostPageLayout";
-import NewFooter from "./App/NewFooter";
+// import { Routes , Route } from "react-router-dom";
+// import NewHeader from "./App/NewHeader";
+// import Nav from "./App/Nav";
+// import Home from "./App/Home";
+// import NewPost from "./App/NewPost";
+// import PostPage from "./App/PostPage";
+// import About from "./App/About";
+// import Missing from "./App/Missing";
+// import Posts from "./App/Posts";
+// import PostPageLayout from "./App/PostPageLayout";
+// import NewFooter from "./App/NewFooter";
 
 /* Applying style */
 //import './App.css';
@@ -35,7 +35,7 @@ function App() {
   return (
     <div>
         {/* Applying style and props*/}
-        {/* <Header headingName = 'To Do Lists'/> */}<NewHeader title='Social Media'/>
+        {/* <Header headingName = 'To Do Lists'/> */}{/* <NewHeader title='Social Media'/> */}
         <main>
           {/* values display */}
           {/* <ValDisplay/> */}
@@ -87,7 +87,7 @@ function App() {
 
 
           {/* from router new app */}
-          <Nav/>
+          {/* <Nav/>
           <Routes>
             <Route path="/" element={<Home message='Wlcome!'/>} />
             <Route path="/newpost" element={<NewPost/>} />
@@ -100,10 +100,10 @@ function App() {
 
             <Route path="*" element={<Missing/>} />
 
-          </Routes>
+          </Routes> */}
 
         </main>
-        {/* <Footer/> */}<NewFooter />
+        {/* <Footer/> */}{/* <NewFooter /> */}
     </div>
   );
 }
